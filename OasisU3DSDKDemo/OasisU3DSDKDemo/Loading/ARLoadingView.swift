@@ -12,7 +12,7 @@ import Lottie
 
 class ARLoadingView: UIView {
 
-    let animationView = AnimationView()
+    var animationView = LottieAnimationView()
     var progressView: UIProgressView!
     var loadingLabel: UILabel!
     
@@ -30,16 +30,16 @@ class ARLoadingView: UIView {
     func setupSubviews() -> Void {
         backgroundColor = .black
         
-        let animation = Animation.named("lottie-loading", subdirectory: "Animations")
-        animationView.animation = animation
-        animationView.contentMode = .scaleAspectFit
-        addSubview(animationView)
-        animationView.snp.makeConstraints { make in
+        let animation = LottieAnimationView.init(name: "lottie-loading")
+        animation.contentMode = .scaleAspectFit
+        addSubview(animation)
+        animation.snp.makeConstraints { make in
             make.centerX.equalTo(self)
             make.centerY.equalTo(self).offset(-30)
             make.width.height.equalTo(150)
         }
         playInfiniteAnimations()
+        animationView = animation
         
         let label = UILabel()
         label.font = .systemFont(ofSize: 14)

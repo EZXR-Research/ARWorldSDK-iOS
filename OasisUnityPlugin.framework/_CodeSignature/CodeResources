@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		WKXpMSSbSA3jrpFuuy14NgbqCjo=
+		1PH1f/2XrU08wxzzvPp4jIf1iQY=
 		</data>
 		<key>Headers/AROasisUnityLoadEvent.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/OasisUnityPlugin-Swift.h</key>
 		<data>
-		utVEEC6Qok/1OalgsndZ1rF18gs=
+		zL97x7IgvEoLZJsfLmZSngJ8F+E=
 		</data>
 		<key>Headers/OasisUnityPlugin.h</key>
 		<data>
@@ -42,27 +42,19 @@
 		</data>
 		<key>Headers/UnityPluginAPI.h</key>
 		<data>
-		ZLe+bZZhrkF1f89FLe7Tuq+JDvE=
+		YaRKDz7vzozW1GJiN5EWRWyuk8c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y5jXVVYpS+s8BkI1UbyKwrdCO14=
+		RShOKY706Rvq9fdF5qJDTscKMuA=
 		</data>
 		<key>LICENSE.md</key>
 		<data>
 		x/nem2BIZ3q9lIy7fQzzaYxP4+A=
 		</data>
-		<key>Modules/.DS_Store</key>
-		<data>
-		gsDYaiJyEsfwIMxhqNnjTh+oqT4=
-		</data>
-		<key>Modules/OasisUnityPlugin.swiftmodule/.DS_Store</key>
-		<data>
-		HDzgY0/3qpAzaPdJTIZ8ylzKyhE=
-		</data>
 		<key>Modules/OasisUnityPlugin.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		U2Elh1OrrVf6wv6i5LWgl+UKao0=
+		lB8otbRuf1Aq8B/Cgl6labRyRcg=
 		</data>
 		<key>Modules/OasisUnityPlugin.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -70,11 +62,11 @@
 		</data>
 		<key>Modules/OasisUnityPlugin.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		RLg+9Ggr8pehWIt55KYwkYZYkaY=
+		/6yisWgWCK2ji6kv2pzRo3wAcwk=
 		</data>
 		<key>Modules/OasisUnityPlugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rThIRs4aemlwgXc/Y5vt655vdZA=
+		Ho1QHscqF5w25HDNn93zZ4kCA0A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -119,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0nx1107ZnVcD9ES/zGFCNXrdu9jzWPhZMBSYpLqjTw=
+			FWgnNADXk0vbGAlrBOrOvA6cP+TRMghnAdgJN2ky+uY=
 			</data>
 		</dict>
 		<key>Headers/OasisUnityPlugin.h</key>
@@ -147,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FzGd6MQWTDFQf53dBs2O9qbTp4vkKR9yZJlnRjSz+5I=
+			ELXlf8vvDK5RwGeWZOW+EeT85otDpkB3Pz6B2MU+O4w=
 			</data>
 		</dict>
 		<key>LICENSE.md</key>
@@ -161,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qr4YzwXldYRHWJe+lbAdePEUUJ/MQthWVxr0fKIbKAc=
+			Lw3tf0v19t8uReyHhqgKdsJkdZ4bM1J1Zlf9T700cpo=
 			</data>
 		</dict>
 		<key>Modules/OasisUnityPlugin.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -175,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r2NYGr2uQSFM0Rv4QhP0qHJEkFyMAGEeiUX3ZfcUi6E=
+			IYiSMQM5M6E0+F8q20Wp3zciuYY6YEigH5eck0vekcc=
 			</data>
 		</dict>
 		<key>Modules/OasisUnityPlugin.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vP7KLFscIiWFQUCnBuu+7mMFRK+UyackF+2x84pF9Xc=
+			Lqcj/lIeM9iwMV22mGrf/NPsjrNpD5dlx3KLOpHYRuY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
