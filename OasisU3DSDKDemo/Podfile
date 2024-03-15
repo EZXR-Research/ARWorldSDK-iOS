@@ -1,0 +1,41 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '11.0'
+
+target 'OasisU3DSDKDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OasisU3DSDKDemo
+#  pod 'OasisSDK', :git => 'https://gitlab.com/InsightAR/oasisu3dsdk.git', :tag => '1.1.1'
+#  pod 'opencv2',  :git => 'https://gitlab.com/InsightAR/OasisSDKLibs.git', :tag => '1.0.6'
+#  pod 'Mapbox',   :git => 'https://gitlab.com/InsightAR/OasisSDKLibs.git', :tag => '1.0.6'
+#  pod 'OasisUnitySDK', :git => 'https://gitlab.com/InsightAR/oasisu3dsdk.git', :tag => '1.9.5'
+#  pod 'BeaconLib', :git => 'https://gitlab.com/InsightAR/OasisSDKLibs.git', :tag => '1.0.6'
+#  
+#  # demo 
+#  pod 'Toast-Swift', '5.0.1'
+#  pod 'SnapKit', '5.0.1'
+#  pod 'SDWebImage', '5.11.1'
+#  pod 'lottie-ios' 
+
+end
+
+post_install do |installer|
+  
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      if config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'].to_f < 12.0
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+      end
+    end
+  end
+  
+  installer.pods_project.targets.each do |target|
+    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+      target.build_configurations.each do |config|
+          config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+  end
+end
+

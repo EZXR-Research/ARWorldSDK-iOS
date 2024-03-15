@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-OasisU3DSDKDemo/Pods-OasisU3DSDKDemo-frameworks.sh
+${PODS_ROOT}/Mapbox/Mapbox.framework
+${PODS_ROOT}/OasisUnitySDK/UnityFramework.framework
+${PODS_ROOT}/OasisUnitySDK/OasisUnityPlugin.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

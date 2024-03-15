@@ -1,0 +1,9 @@
+{
+    "cornerRadius":12,
+    "buttonCornerRadius":24,
+    "mainColor":"#7C77F7",
+    "buttonColor":[
+        "#5B5DEF",
+        "#998DFF"
+    ]
+}

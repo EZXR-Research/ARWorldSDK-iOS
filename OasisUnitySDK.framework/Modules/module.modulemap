@@ -1,0 +1,6 @@
+framework module OasisUnitySDK {
+  umbrella header "OasisUnitySDK.h"
+  export *
+
+  module * { export * }
+}
