@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "12.0"
   s.ios.deployment_target = "12.0"
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   # 路径地址
   s.source       = { :git => 'https://github.com/EZXR-Research/ARWorldSDK-iOS.git', :tag => s.version }
@@ -35,7 +37,7 @@ Pod::Spec.new do |s|
   s.libraries = 'bz2', 'sqlite3.0', "c++"
   s.requires_arc = true
   s.dependency "SSZipArchive" , ">= 2.0.0"
-  s.vendored_frameworks = 'OasisUnitySDK.framework', 'UnityFramework.framework', 'OasisUnityPlugin.framework', 'BeaconLib.framework', 'Mapbox.framework', 'opencv2.framework'
+  s.vendored_frameworks = 'OasisUnitySDK.framework', 'Frameworks/UnityFramework.framework', 'Frameworks/OasisUnityPlugin.framework', 'Frameworks/BeaconLib.framework', 'Frameworks/Mapbox.framework', 'Frameworks/opencv2.framework'
   # s.vendored_libraries = "MMTrackerSDK/**/*.a"
 
 end

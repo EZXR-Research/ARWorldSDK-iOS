@@ -1,0 +1,11 @@
+framework module OasisUnityPlugin {
+  umbrella header "OasisUnityPlugin.h"
+  export *
+
+  module * { export * }
+}
+
+module OasisUnityPlugin.Swift {
+  header "OasisUnityPlugin-Swift.h"
+  requires objc
+}
