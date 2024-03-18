@@ -72,7 +72,7 @@ typedef void (* ICloudLocationCallback)(int algCode, const char *protobufEncodin
 /// 云端重定位请求，指向SDK的外部函数地址
 typedef void (* ICloudLocationRequestHandler)(NSString * jpegStr, NSString * protoStr);
 /// ar script 脚本指令回调
-typedef void (* IDoScriptCallback)(const char *script);
+typedef void (* IDoScriptCallback)(const char * indentity, const char *script);
 //子场景资源进度下载回调
 typedef void (*IPoiStatusCallback)(const char *script);
 //主场景资源进度下载回调
